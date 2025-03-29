@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background: black;
+  }
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    color: #ff416c;
+    transform: scale(1.1);
+  }
+  
+  .nav-item:active {
+    transform: scale(0.9);
+  }
+  

@@ -1,0 +1,47 @@
+.user-details-container {
+  text-align: center;
+  padding: 50px;
+  background: black;
+  min-height: 100vh;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.neon-title-details {
+  font-size: 10rem; 
+  font-weight: bold;
+  color: #ff0080;
+  text-shadow: 0 50px 80px #ff0080;
+}
+
+.user-avatar-details {
+  width: 300px; 
+  height: 300px;
+  border-radius: 50%;
+  border: 6px solid #ff0080; 
+  margin-bottom: 20px;
+}
+
+.user-info-details h1 {
+  font-size: 4rem; 
+  color: white;
+  text-shadow: 0 0 15px #ff0080;
+}
+
+.user-info-details p {
+  font-size: 2rem; 
+  color: #ff416c;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.back-link:hover {
+  color: #ff416c;
+}

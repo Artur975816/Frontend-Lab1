@@ -1,0 +1,24 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+  }
+  
+  /* Анимация движения по пути бесконечности */
+  .infinity path {
+    stroke-dasharray: 200;
+    stroke-dashoffset: 400;
+    animation: moveInfinity 5s linear infinite;
+  }
+  
+  @keyframes moveInfinity {
+    0% {
+      stroke-dashoffset: 400;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  

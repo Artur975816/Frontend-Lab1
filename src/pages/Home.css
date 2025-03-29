@@ -1,0 +1,20 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  .neon-text {
+    border-radius: 10px;
+    border-color: black;
+    font-size: 8rem; 
+    font-weight: bold;
+    color: #ff0080; 
+    text-shadow: 0 40px 70px #ff0080;
+  }
+  
+
+  
